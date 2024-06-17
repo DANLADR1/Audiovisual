@@ -1,10 +1,10 @@
 package cine;
 
-public class Pelicula extends ObraVisual implements Calificacion {
+public class Documental extends ObraVisual {
 
     String actores;
     boolean educativo;
-    double puntuacion;
+    int puntuacion;
 
     @Override
     public void puntuar(double puntos){
